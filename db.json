@@ -1,138 +1,128 @@
 {
   "questions": [
     {
-      "question": "Which is the most popular JavaScript framework?",
-      "options": ["Angular", "React", "Svelte", "Vue"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which company invented React?",
-      "options": ["Google", "Apple", "Netflix", "Facebook"],
-      "correctOption": 3,
-      "points": 10
-    },
-    {
-      "question": "What's the fundamental building block of React apps?",
-      "options": ["Components", "Blocks", "Elements", "Effects"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What's the name of the syntax we use to describe the UI in React components?",
-      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "question": "What year was GPS first launched?",
+      "options": ["1972", "1978", "1980", "1982"],
       "correctOption": 2,
-      "points": 10
+      "points": 20
     },
     {
-      "question": "How does data flow naturally in React apps?",
+      "question": "Which signal is not part of Beidou?",
+      "options": ["B1I", "B1B", "B2I", "B2B"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which Galileo signal can be encrypted?",
+      "options": ["E1", "E5A", "E5B", "E6"],
+      "correctOption": 4,
+      "points": 20
+    },
+    {
+      "question": "What is a traditional way to detect code-phase multipath?",
       "options": [
-        "From parents to children",
-        "From children to parents",
-        "Both ways",
-        "The developers decides"
+        "Using a low-pass filter with Pseudorange measurements",
+        "Intermittent drops in Carrier-to-Noise Density (C/N0)",
+        "Plot a carrier phase I/Q phasor digaram",
+        "Subtract code-minus-carrier measurements"
       ],
-      "correctOption": 0,
-      "points": 10
+      "correctOption": 4,
+      "points": 20
     },
     {
-      "question": "How to pass data into a child component?",
-      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "question": "What type of antenna is used to mitigate multipath?",
+      "options": ["Choke-ring", "CRPA", "Fixed Reference", "Widebannd"],
       "correctOption": 1,
-      "points": 10
+      "points": 20
     },
     {
-      "question": "When to use derived state?",
+      "question": "What is the DLL of any GNSS receiver?",
       "options": [
-        "Whenever the state should not trigger a re-render",
-        "Whenever the state can be synchronized with an effect",
-        "Whenever the state should be accessible to all components",
-        "Whenever the state can be computed from another state variable"
-      ],
-      "correctOption": 3,
-      "points": 30
-    },
-    {
-      "question": "What triggers a UI re-render in React?",
-      "options": [
-        "Running an effect",
-        "Passing props",
-        "Updating state",
-        "Adding event listeners to DOM elements"
+        "Dual Long Lines",
+        "Delay Lock Loop",
+        "Data Link Layer",
+        "Dynamic Link Library"
       ],
       "correctOption": 2,
       "points": 20
     },
     {
-      "question": "When do we directly \"touch\" the DOM in React?",
+      "question": "What Einstein effect is used in GNSS?",
       "options": [
-        "When we need to listen to an event",
-        "When we need to change the UI",
-        "When we need to add styles",
-        "Almost never"
+        "General Theory of Relativity",
+        "Special Theory of Relativity",
+        "Wave Particle Duality",
+        "Bose-Einstein Condensate"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the tradeoff of using a narrow correlator?",
+      "options": [
+        "Loss of phasor information due to aliasing",
+        "Need to procure a higher-performance GNSS antenna",
+        "Requiring more bandwidth in the correlator function",
+        "Higher power consumption in the FPGA"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What is the GPS L1 C/A codephase chipping rate?",
+      "options": ["1 Mcps", "1.023 Mcps", "10 Mcps", "10.23 Mcps"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the minimum number of satellites to compute a GNSS position?",
+      "options": ["1", "2", "3", "4"],
+      "correctOption": 4,
+      "points": 10
+    },
+    {
+      "question": "What does RTK stand for?",
+      "options": [
+        "Run Time Kernel",
+        "Radio Tool Kit",
+        "Real Time Kinematic",
+        "Record Test Kit"
       ],
       "correctOption": 3,
       "points": 20
     },
     {
-      "question": "In what situation do we use a callback to update state?",
+      "question": "Today, typically, the largest source of GNSS errors stem from?",
       "options": [
-        "When updating the state will be slow",
-        "When the updated state is very data-intensive",
-        "When the state update should happen faster",
-        "When the new state depends on the previous state"
+        "Troposphere",
+        "Multipath",
+        "Satellite Orbital Errors",
+        "Ionosphere"
       ],
-      "correctOption": 3,
-      "points": 30
+      "correctOption": 4,
+      "points": 20
     },
     {
-      "question": "If we pass a function to useState, when will that function be called?",
+      "question": "Epoch 0 of GPS time started on?",
       "options": [
-        "On each re-render",
-        "Each time we update the state",
-        "Only on the initial render",
-        "The first time we update the state"
+        "January 6, 1980",
+        "January 2, 1978",
+        "January 3, 1972",
+        "January 4, 1978"
       ],
-      "correctOption": 2,
-      "points": 30
-    },
-    {
-      "question": "Which hook to use for an API request on the component's initial render?",
-      "options": ["useState", "useEffect", "useRef", "useReducer"],
       "correctOption": 1,
-      "points": 10
+      "points": 20
     },
     {
-      "question": "Which variables should go into the useEffect dependency array?",
-      "options": [
-        "Usually none",
-        "All our state variables",
-        "All state and props referenced in the effect",
-        "All variables needed for clean up"
-      ],
-      "correctOption": 2,
-      "points": 30
-    },
-    {
-      "question": "An effect will always run on the initial render.",
-      "options": [
-        "True",
-        "It depends on the dependency array",
-        "False",
-        "In depends on the code in the effect"
-      ],
+      "question": "A typical noise floor density of a GNSS receiver is?",
+      "options": ["-122 dBm/Hz", "-142 dBm/Hz", "-155 dBm/Hz", "-168 dBm/Hz"],
       "correctOption": 0,
-      "points": 30
+      "points": 20
     },
     {
-      "question": "When will an effect run if it doesn't have a dependency array?",
-      "options": [
-        "Only when the component mounts",
-        "Only when the component unmounts",
-        "The first time the component re-renders",
-        "Each time the component is re-rendered"
-      ],
-      "correctOption": 3,
+      "question": "Which of the following is not a modulation scheme used in GNSS?",
+      "options": ["BOC", "AltBOC", "BPSK", "DSB"],
+      "correctOption": 4,
       "points": 20
     }
   ]
