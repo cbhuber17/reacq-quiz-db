@@ -116,7 +116,7 @@
     {
       "question": "A typical noise floor density of a GNSS receiver is?",
       "options": ["-122 dBm/Hz", "-142 dBm/Hz", "-155 dBm/Hz", "-168 dBm/Hz"],
-      "correctOption": 0,
+      "correctOption": 1,
       "points": 20
     },
     {
